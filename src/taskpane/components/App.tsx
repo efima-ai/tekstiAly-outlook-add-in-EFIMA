@@ -2,6 +2,7 @@ import * as React from "react";
 import Header from "./Header";
 import Progress from "./Progress";
 import TekstiAlyButton from "./TekstiAlyButton";
+import RagButton from "./RagButton";
 
 /* global require */
 
@@ -76,6 +77,10 @@ export default class App extends React.Component<AppProps> {
             Pikatoiminnot
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+            <RagButton
+              name="Luo vastaus Intran tiedoista"
+              instructions="Vastaa seuraavaan sähköpostiin parhaimman tietämyksesi perusteella"
+            />
             <TekstiAlyButton name="Käännä englanniksi" instructions="Käännä seuraava teksti englanniksi" />
             <TekstiAlyButton name="Käännä suomeksi" instructions="Käännä seuraava teksti suomeksi" />
             <TekstiAlyButton

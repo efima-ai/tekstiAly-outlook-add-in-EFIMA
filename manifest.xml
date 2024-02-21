@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
-  <Id>e7491eba-c5af-4fb4-b1c1-f9b6be999fb5</Id>
+  <Id>e7491eba-c5af-4fb4-b1c1-f9b6be999fb7</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Efima</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="tekstiAly-outlook-addin"/>
-  <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/efima-logo.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/efima-logo.png"/>
+  <DisplayName DefaultValue="tekstiÄly Outlook Add-in (Preview)"/>
+  <Description DefaultValue="tekstiÄly Outlook Add-in (Preview)"/>
+  <IconUrl DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/assets/efima-logo.png"/>
+  <HighResolutionIconUrl DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/assets/efima-logo.png"/>
   <SupportUrl DefaultValue="https://www.efima.com/"/>
   <AppDomains>
     <AppDomain>https://www.efima.com/</AppDomain>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+        <SourceLocation DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -85,13 +85,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/e-logo.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/e-logo.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/e-logo.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/assets/e-logo.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/assets/e-logo.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/assets/e-logo.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://tekstialy-outlook-add-in-efima.azurewebsites.net/dist/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="tekstiÄly Outlook Add-in"/>
